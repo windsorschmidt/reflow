@@ -1,10 +1,10 @@
 CFLAGS = -g -Wall -DUI_MOCKUP \
-         -I../firmware/Middlewares/Third_Party/u8g2/. \
-         -I../firmware/Inc `sdl2-config --cflags`
+         -I../Middlewares/Third_Party/u8g2/. \
+         -I../Inc `sdl2-config --cflags`
 
-SRC = $(shell ls ../firmware/Middlewares/Third_Party/u8g2/*.c) \
+SRC = $(shell ls ../Middlewares/Third_Party/u8g2/*.c) \
                  u8x8_d_sdl_128x64.c u8x8_sdl_key.c \
-                 ../firmware/Src/ui.c ../firmware/Src/profile.c \
+                 ../Src/ui.c ../Src/profile.c ../Src/u8g2_fonts_reflow.c \
                  main.c
 
 OBJ = $(SRC:.c=.o)
