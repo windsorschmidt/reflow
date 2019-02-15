@@ -1,0 +1,9 @@
+fp-info-cache
+_autosave-*
+cam
+*.bak
+*.kicad_pcb-bak
+*.csv
+*.xml
+*.html
+*.css
