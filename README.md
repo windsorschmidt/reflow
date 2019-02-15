@@ -8,6 +8,8 @@ Hardware and firmware sources for a 2-channel reflow (toaster) oven controller.
 
 In spite of great alternatives such as [Controleo3](http://www.whizoo.com/controleo3), I decided to build my own controller for personal use. The design is intended to be simple and self-contained. Comments and pull requests are welcome!
 
+Pictures of my toaster oven retrofit and PCB build are [here on imgur](https://imgur.com/gallery/L4Zu2G3).
+
 ![3D Rendering of PCB](pcb.png?raw=true "3D Rendering of PCB")
 
 ## Hardware Features
