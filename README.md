@@ -10,7 +10,7 @@ In spite of great alternatives such as [Controleo3](http://www.whizoo.com/contro
 
 Some pictures of the assembled controller and completed oven retrofit [are online here](https://imgur.com/gallery/L4Zu2G3).
 
-![3D Rendering of PCB](reflow.png?raw=true "3D Rendering of PCB")
+| ![3D Rendering of PCB top](render_top.png?raw=true "3D Rendering of PCB top") | ![3D Rendering of PCB bottom](render_bottom.png?raw=true "3D Rendering of PCB bottom") |
 
 ## Hardware Features
 
