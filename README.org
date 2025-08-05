@@ -1,6 +1,6 @@
 * Reflow Oven Controller
 
-"Yeah man, but it's a **dry** heat!."_ —PFC William L. Hudson
+"Yeah man, but it's a *dry* heat!." —PFC William L. Hudson
 
 * About
 
@@ -31,8 +31,8 @@ Some pictures of the assembled controller and completed oven retrofit
 
 - Non-profiling PID routine controls triac outputs to track the active reflow profile
 - Reflow profile can be viewed & edited at run-time (currently no ability to save edits)
-
-[[ui.png?raw=true][Main and profile UI displays]]
+  
+[[ui.png?raw=true]]
 
 * References
 
