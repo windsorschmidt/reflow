@@ -1,1 +1,61 @@
+* Reflow Oven Controller
+
+"Yeah man, but it's a **dry** heat!."_ —PFC William L. Hudson
+
+* About
+
+Hardware and firmware sources for a 2-channel reflow (toaster) oven
+controller.
+
+In spite of great alternatives such as [[http://www.whizoo.com/controleo3][Controleo3]], I decided to build
+my own controller for personal use. The design is intended to be
+simple and self-contained. Comments and pull requests are welcome!
+
+Some pictures of the assembled controller and completed oven retrofit
+[[https://imgur.com/gallery/L4Zu2G3][are online here]].
+
 | [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
+
+* Hardware Features
+
+- Two triac-controlled power outputs (no external SSRs needed)
+- AC line zero-crossing detection for reduced switching noise
+- Temperature sensor using MAX31855 K-type thermocouple amplifier
+- Compact user interface with OLED display and Cherry MX key-switches
+- Data-logging output though USB and serial-to-Bluetooth module
+- Tone transducer for audible alerts (e.g. reflow cycle complete)
+- Mounts in a dedicated enclosure for simple wiring using IEC connectors
+- [[https://en.wikipedia.org/wiki/Aliens_(film)][Aliens]] film inspired aesthetics
+
+* Firmware Features
+
+- Non-profiling PID routine controls triac outputs to track the active reflow profile
+- Reflow profile can be viewed & edited at run-time (currently no ability to save edits)
+
+[[ui.png?raw=true][Main and profile UI displays]]
+
+* References
+
+- [[https://www.allaboutcircuits.com/projects/controlling-ac-mains-with-a-microcontroller-for-fun-and-profit][This project]] was used as a basis for the triac control and zero-crossing detection circuitry
+- [[https://www.reddit.com/user/rich-creamery-butter][This Reddit user]] provided [[https://imgur.com/a/sCKgO][Assembly pics]] used as a guide when converting my own oven
+- The excellent [[https://github.com/olikraus/u8g2][u8g2]] library used to render user-interface graphics and text
+- [[mailto:p@yusukekamiyamane.com][Yusuke Kamiyamane's]] Tempesta Seven font used in the gnuplot script
+- [[http://kicad-pcb.org][KiCad]] EDA suite used for hardware schematic capture and PCB layout
+
+* Disclaimer
+
+This information is supplied "as is" and without warranties of any
+kind, express, implied, or statutory including, but not limited to,
+any implied warranty of merchantability, noninfringement or fitness
+for a particular purpose and no responsibility is assumed by the
+author for its use, nor for any infringements of patents or other
+rights of third parties that may result from its use.
+
+In no event will the author be liable for any loss or damage including
+without limitation, indirect or consequential loss or damage, or any
+loss or damage whatsoever arising from or in connection with the use
+of this information.
+
+* License
+
+[[LICENSE.txt][MIT license]]
