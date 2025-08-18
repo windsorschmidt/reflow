@@ -14,7 +14,7 @@ simple and self-contained. Comments and pull requests are welcome!
 Some pictures of the assembled controller and completed oven retrofit
 [[https://imgur.com/gallery/L4Zu2G3][are online here]].
 
-| [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
+[[reflow.png?raw=true]]
 
 * Hardware Features
 
